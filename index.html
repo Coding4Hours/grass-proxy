@@ -18,7 +18,7 @@ body {
     <h1 class="text-3xl font-bold text-green-700 mb-4">Grass Proxy</h1>
     <p class="text-gray-600 mb-6">"But I escaped, I saw the grass, it blinded me for a second." - !/boot/loader</p>
 
-    <form action="/proxy" method="GET" class="flex flex-col gap-4">
+    <form onsubmit="event.preventDefault()" class="flex flex-col gap-4">
       <input
         type="text"
         name="url"
